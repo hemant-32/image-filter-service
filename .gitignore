@@ -1,0 +1,12 @@
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+
+# Project Cleanup Files
+node_modules/
+.elasticbeanstalk/aws_credentials_local
+*.jpg
+*.jpeg
+*.png
+.DS_Store
